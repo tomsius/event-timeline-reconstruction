@@ -8,7 +8,7 @@ function App() {
   const { isLoading } = useAuth0();
 
   if (isLoading) {
-    return <div>Palaukite...</div>
+    return <div>Palaukite</div>
   }
 
   return (
