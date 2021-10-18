@@ -9,7 +9,7 @@ function Navigation() {
     return (
         <Navbar collapseOnSelect bg="dark" variant="dark" expand="md">
             <Container>
-                <Navbar.Brand as as={Link} to="/">Pradžia</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/">Pradžia</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     {!isAuthenticated && (
