@@ -12,7 +12,7 @@ ReactDOM.render(
     domain={domain}
     clientId={clientId}
     redirectUri={window.location.origin + process.env.REACT_APP_REDIRECT_URI}>
-    <HashRouter basename="/event-timeline-reconstruction">
+    <HashRouter basename="/">
     <App />
   </HashRouter>
   </Auth0Provider>,
