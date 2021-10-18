@@ -17,9 +17,9 @@ function Navigation() {
                         </Nav>)}
                     {isAuthenticated && (
                         <Nav className="me-auto">
-                            <Nav.Link href="/semester1">1-as semestras</Nav.Link>
-                            <Nav.Link href="/semester2">2-as semestras</Nav.Link>
-                            <Nav.Link href="/semester3">3-as semestras</Nav.Link>
+                            <Nav.Link href="semester1">1-as semestras</Nav.Link>
+                            <Nav.Link href="semester2">2-as semestras</Nav.Link>
+                            <Nav.Link href="semester3">3-as semestras</Nav.Link>
                             <Nav.Link href="contacts">Kontaktai</Nav.Link>
                             <Nav.Link href="" onClick={() => logout()}>Atsijungti</Nav.Link>
                         </Nav>)}
