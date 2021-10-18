@@ -1,21 +1,25 @@
 import './App.css';
-import LoginButton from './components/LoginButton';
-import LogoutButton from './components/LogoutButton';
-import Profile from './components/Profile';
 import { useAuth0 } from '@auth0/auth0-react';
+import { Switch, Route } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import {Home} from './components/Home';
+import {Contacts} from './components/Contacts';
 
 function App() {
   const { isLoading } = useAuth0();
 
   if (isLoading) {
-    return <div>Palaukite</div>
+    return <div style={{textAlign: "center", position: "relative"}}>Palaukite...</div>
   }
 
   return (
     <>
-      <LoginButton />
-      <LogoutButton />
-      <Profile />
+      <Navigation />
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/contacts" component={Contacts} exact />
+        {/*<Route path='/wins/bygrid' exact render={(props) => (<WinnersByGrid {...props} api={"wins/bygrid"} pageTitle={"Laimėjimai iš tam tikros starto pozicijos"} />)} />*/}
+      </Switch>
     </>
   );
 }
