@@ -8,7 +8,7 @@ function Navigation() {
     return (
         <Navbar collapseOnSelect bg="dark" variant="dark" expand="md">
             <Container>
-                <Navbar.Brand href="/">Pradžia</Navbar.Brand>
+                <Navbar.Brand href="/event-timeline-reconstruction">Pradžia</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     {!isAuthenticated && (
@@ -17,10 +17,10 @@ function Navigation() {
                         </Nav>)}
                     {isAuthenticated && (
                         <Nav className="me-auto">
-                            <Nav.Link href="/semester1">1-as semestras</Nav.Link>
-                            <Nav.Link href="/semester2">2-as semestras</Nav.Link>
-                            <Nav.Link href="/semester3">3-as semestras</Nav.Link>
-                            <Nav.Link href="/contacts">Kontaktai</Nav.Link>
+                            <Nav.Link href="/event-timeline-reconstruction/semester1">1-as semestras</Nav.Link>
+                            <Nav.Link href="/event-timeline-reconstruction/semester2">2-as semestras</Nav.Link>
+                            <Nav.Link href="/event-timeline-reconstruction/semester3">3-as semestras</Nav.Link>
+                            <Nav.Link href="/event-timeline-reconstruction/contacts">Kontaktai</Nav.Link>
                             <Nav.Link href="" onClick={() => logout()}>Atsijungti</Nav.Link>
                         </Nav>)}
                 </Navbar.Collapse>

@@ -16,8 +16,8 @@ function App() {
     <>
       <Navigation />
       <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/contacts" component={Contacts} exact />
+        <Route path="/event-timeline-reconstruction/" component={Home} exact />
+        <Route path="/event-timeline-reconstruction/contacts" component={Contacts} exact />
         {/*<Route path='/wins/bygrid' exact render={(props) => (<WinnersByGrid {...props} api={"wins/bygrid"} pageTitle={"Laimėjimai iš tam tikros starto pozicijos"} />)} />*/}
       </Switch>
     </>
