@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/event-timeline-reconstruction/static/css/main.8386777f.chunk.css",
-    "main.js": "/event-timeline-reconstruction/static/js/main.16e6599f.chunk.js",
-    "main.js.map": "/event-timeline-reconstruction/static/js/main.16e6599f.chunk.js.map",
+    "main.css": "/event-timeline-reconstruction/static/css/main.a52b0153.chunk.css",
+    "main.js": "/event-timeline-reconstruction/static/js/main.54cdec69.chunk.js",
+    "main.js.map": "/event-timeline-reconstruction/static/js/main.54cdec69.chunk.js.map",
     "runtime-main.js": "/event-timeline-reconstruction/static/js/runtime-main.4be8a8e8.js",
     "runtime-main.js.map": "/event-timeline-reconstruction/static/js/runtime-main.4be8a8e8.js.map",
-    "static/js/2.4907a281.chunk.js": "/event-timeline-reconstruction/static/js/2.4907a281.chunk.js",
-    "static/js/2.4907a281.chunk.js.map": "/event-timeline-reconstruction/static/js/2.4907a281.chunk.js.map",
+    "static/js/2.06555980.chunk.js": "/event-timeline-reconstruction/static/js/2.06555980.chunk.js",
+    "static/js/2.06555980.chunk.js.map": "/event-timeline-reconstruction/static/js/2.06555980.chunk.js.map",
     "index.html": "/event-timeline-reconstruction/index.html",
-    "static/css/main.8386777f.chunk.css.map": "/event-timeline-reconstruction/static/css/main.8386777f.chunk.css.map",
-    "static/js/2.4907a281.chunk.js.LICENSE.txt": "/event-timeline-reconstruction/static/js/2.4907a281.chunk.js.LICENSE.txt"
+    "static/css/main.a52b0153.chunk.css.map": "/event-timeline-reconstruction/static/css/main.a52b0153.chunk.css.map",
+    "static/js/2.06555980.chunk.js.LICENSE.txt": "/event-timeline-reconstruction/static/js/2.06555980.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4be8a8e8.js",
-    "static/js/2.4907a281.chunk.js",
-    "static/css/main.8386777f.chunk.css",
-    "static/js/main.16e6599f.chunk.js"
+    "static/js/2.06555980.chunk.js",
+    "static/css/main.a52b0153.chunk.css",
+    "static/js/main.54cdec69.chunk.js"
   ]
 }
