@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/event-timeline-reconstruction/static/css/main.a52b0153.chunk.css",
-    "main.js": "/event-timeline-reconstruction/static/js/main.c771f66e.chunk.js",
-    "main.js.map": "/event-timeline-reconstruction/static/js/main.c771f66e.chunk.js.map",
+    "main.js": "/event-timeline-reconstruction/static/js/main.da8044ba.chunk.js",
+    "main.js.map": "/event-timeline-reconstruction/static/js/main.da8044ba.chunk.js.map",
     "runtime-main.js": "/event-timeline-reconstruction/static/js/runtime-main.4be8a8e8.js",
     "runtime-main.js.map": "/event-timeline-reconstruction/static/js/runtime-main.4be8a8e8.js.map",
     "static/js/2.06555980.chunk.js": "/event-timeline-reconstruction/static/js/2.06555980.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.4be8a8e8.js",
     "static/js/2.06555980.chunk.js",
     "static/css/main.a52b0153.chunk.css",
-    "static/js/main.c771f66e.chunk.js"
+    "static/js/main.da8044ba.chunk.js"
   ]
 }
