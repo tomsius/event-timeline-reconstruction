@@ -6,13 +6,13 @@ export class Contacts extends Component {
             <div className="container">
                 <h1>Kontaktai</h1>
                 <div style={{ margin: "50px" }}>
-                    <p style={{ fontWeight: "bold", textAlign: "center"}}>Užsakovas:<br />
+                    <p style={{textAlign: "center"}}><b>Užsakovas:</b><br />
                         prof. Vacius Jusas.<br />
                         El. paštas: vacius.jusas@ktu.lt</p>
-                    <p style={{ fontWeight: "bold", textAlign: "center"}}>Vadovas:<br />
+                    <p style={{textAlign: "center"}}><b>Vadovas:</b><br />
                         prof. Vacius Jusas.<br />
                         El. paštas: vacius.jusas@ktu.lt</p>
-                    <p style={{ fontWeight: "bold", textAlign: "center"}}>Studentas:<br />
+                    <p style={{textAlign: "center"}}><b>Studentas:</b><br />
                         Tomas Kašelynas<br />
                         El. paštas: tomas.kaselynas@ktu.edu<br />
                         Tel. numeris: 869605352</p>
