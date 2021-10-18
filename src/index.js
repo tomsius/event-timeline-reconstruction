@@ -12,7 +12,7 @@ ReactDOM.render(
     domain={domain}
     clientId={clientId}
     redirectUri={window.location.origin + process.env.REACT_APP_REDIRECT_URI}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.REACT_APP_URL}>
     <App />
   </BrowserRouter>
   </Auth0Provider>,
