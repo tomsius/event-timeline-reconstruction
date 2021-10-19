@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/event-timeline-reconstruction/static/css/main.cabfdc8f.chunk.css",
-    "main.js": "/event-timeline-reconstruction/static/js/main.fec1b80e.chunk.js",
-    "main.js.map": "/event-timeline-reconstruction/static/js/main.fec1b80e.chunk.js.map",
+    "main.js": "/event-timeline-reconstruction/static/js/main.bd8e7a82.chunk.js",
+    "main.js.map": "/event-timeline-reconstruction/static/js/main.bd8e7a82.chunk.js.map",
     "runtime-main.js": "/event-timeline-reconstruction/static/js/runtime-main.4be8a8e8.js",
     "runtime-main.js.map": "/event-timeline-reconstruction/static/js/runtime-main.4be8a8e8.js.map",
-    "static/js/2.c2acba62.chunk.js": "/event-timeline-reconstruction/static/js/2.c2acba62.chunk.js",
-    "static/js/2.c2acba62.chunk.js.map": "/event-timeline-reconstruction/static/js/2.c2acba62.chunk.js.map",
+    "static/js/2.702007d7.chunk.js": "/event-timeline-reconstruction/static/js/2.702007d7.chunk.js",
+    "static/js/2.702007d7.chunk.js.map": "/event-timeline-reconstruction/static/js/2.702007d7.chunk.js.map",
     "index.html": "/event-timeline-reconstruction/index.html",
     "static/css/main.cabfdc8f.chunk.css.map": "/event-timeline-reconstruction/static/css/main.cabfdc8f.chunk.css.map",
-    "static/js/2.c2acba62.chunk.js.LICENSE.txt": "/event-timeline-reconstruction/static/js/2.c2acba62.chunk.js.LICENSE.txt"
+    "static/js/2.702007d7.chunk.js.LICENSE.txt": "/event-timeline-reconstruction/static/js/2.702007d7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4be8a8e8.js",
-    "static/js/2.c2acba62.chunk.js",
+    "static/js/2.702007d7.chunk.js",
     "static/css/main.cabfdc8f.chunk.css",
-    "static/js/main.fec1b80e.chunk.js"
+    "static/js/main.bd8e7a82.chunk.js"
   ]
 }
