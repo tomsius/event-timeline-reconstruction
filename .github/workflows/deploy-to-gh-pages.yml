@@ -22,6 +22,7 @@ jobs:
           REACT_APP_AUTH0_DOMAIN: ${{ secrets.REACT_APP_AUTH0_DOMAIN }}
           REACT_APP_AUTH0_CLIENT_ID: ${{ secrets.REACT_APP_AUTH0_CLIENT_ID }}
           REACT_APP_REDIRECT_URI: ${{ secrets.REACT_APP_REDIRECT_URI }}
+          REACT_APP_SERVER: ${{ secrets.REACT_APP_SERVER }}
         
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1

@@ -8,7 +8,7 @@ function CommentsModal(props) {
     const { user } = useAuth0();
 
     const refreshComments = useCallback(() => {
-        axios.get(`${process.env.REACT_APP_SERVER}/comments/${props.taskId}`)
+        axios.get(`${process.env.REACT_APP_SERVER}/comments?id=${props.taskId}`)
                 .then(response => response.data)
                 .then(data => setComments(data));
     }, [props.taskId]);
@@ -26,11 +26,12 @@ function CommentsModal(props) {
         let year = dateObj.getUTCFullYear();
         let date = year + "-" + month + "-" + day;
 
-        axios.post(`${process.env.REACT_APP_SERVER}/addComment`, {
+        axios.post(`${process.env.REACT_APP_SERVER}/comments`, {
             user: user.name,
             date: date,
             text: event.target.Comment.value,
-            taskId: props.taskId
+            fk_TASKid_TASK: props.taskId,
+            id_COMMENT: 0
         })
         .then(() => refreshComments());
     }, [user.name, props.taskId, refreshComments]);

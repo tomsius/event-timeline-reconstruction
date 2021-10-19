@@ -11,7 +11,7 @@ function TaskList(props) {
     const { isAuthenticated } = useAuth0();
 
     useEffect(() => {
-        axios.get(`${process.env.REACT_APP_SERVER}/tasks/${props.semester}`)
+        axios.get(`${process.env.REACT_APP_SERVER}/tasks?id=${props.semester}`)
             .then(response => response.data)
             .then(data => setTasks(data));
     }, [props.semester]);
