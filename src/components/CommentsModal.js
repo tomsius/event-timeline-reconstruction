@@ -19,22 +19,23 @@ function CommentsModal(props) {
 
     const addComment = useCallback((event) => {
         event.preventDefault();
-        console.log(event.target.Comment.value);
         let dateObj = new Date();
         let month = dateObj.getMonth() + 1;
         let day = dateObj.getUTCDate();
         let year = dateObj.getUTCFullYear();
         let date = year + "-" + month + "-" + day;
 
+        let name = user.name === "" ? user.nickname : user.name;
+        
         axios.post(`${process.env.REACT_APP_SERVER}/comments`, {
-            user: user.name,
+            user: name,
             date: date,
             text: event.target.Comment.value,
             fk_TASKid_TASK: props.taskId,
             id_COMMENT: 0
         })
         .then(() => refreshComments());
-    }, [user.name, props.taskId, refreshComments]);
+    }, [user.name, user.nickname, props.taskId, refreshComments]);
 
     return (
         <Modal size="lg" show={props.show} onHide={props.handleClose}>
